@@ -1,6 +1,11 @@
-# Pyodide breaks Ipad OS 18.5 demo
+# Pyodide Breaks on iPadOS 18.5 – Demo
 
-- Page `index.html` uses Pyodide v 0.27.7. Breaks on Ipad OS v 18.5.
-- Page `index-1.html` uses Pyodide v 0.27.0. doesn't break on Ipad OS 18.5.
+This repository demonstrates a regression in Pyodide when running on iPadOS 18.5.
 
-Visit [here](https://gmzi.github.io/pyodide-breaks-ipad-demo/index.html)
+- [`index.html`](https://gmzi.github.io/pyodide-breaks-ipad-demo/index.html) uses **Pyodide v0.27.7** and **breaks on iPadOS 18.5**.
+- [`index-1.html`](https://gmzi.github.io/pyodide-breaks-ipad-demo/index-1.html) uses **Pyodide v0.27.0** and **does not break on iPadOS 18.5**.
+
+### Test Pages
+
+- ✅ [Working page (v0.27.0)](https://gmzi.github.io/pyodide-breaks-ipad-demo/index-1.html)
+- ❌ [Breaking page (v0.27.7)](https://gmzi.github.io/pyodide-breaks-ipad-demo/index.html)
